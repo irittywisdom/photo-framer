@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Framer - Profile (Mobile Friendly)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>🖼️ IRITTY PROGRAM Photo Framer</h1>
+    <p>Upload, adjust, and download your photo with program footer.</p>
+  </header>
+
+  <main>
+    <div class="upload-section">
+      <input type="file" id="upload" accept="image/*">
+    </div>
+
+    <div class="preview">
+      <div id="frameContainer">
+        <img id="uploadedImage" alt="Your Photo">
+        <img id="footerFrame" src="https://i.postimg.cc/L8ZTF4Db/footer-frame.png" alt="Footer Frame">
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <button id="downloadBtn">Download</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Photo Framer | Mobile Friendly</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
